@@ -1,0 +1,63 @@
+/* Estilos para a página principal */
+body {
+    background-color: #F4F4F4; /* Define a cor de fundo do corpo da página */
+    font-family: Arial, sans-serif; /* Define a fonte para ser usada no texto */
+}
+
+.container {
+    max-width: 600px; /* Define a largura máxima do contêiner */
+    margin: 0 auto; /* Centraliza o contêiner na página */
+    padding: 20px; /* Adiciona espaçamento interno ao contêiner */
+    background-color: #FFFFFF; /* Define a cor de fundo do contêiner */
+    border-radius: 10px; /* Adiciona bordas arredondadas ao contêiner */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao contêiner */
+}
+
+h1 {
+    color: #333333; /* Define a cor do texto do título */
+    text-align: center; /* Centraliza o texto do título */
+}
+
+form {
+    text-align: center; /* Centraliza o conteúdo do formulário */
+}
+
+input[type="number"] {
+    width: 200px; /* Define a largura do campo de entrada de número */
+    padding: 10px; /* Adiciona espaçamento interno ao campo de entrada */
+    border: 1px solid #CCCCCC; /* Adiciona uma borda ao campo de entrada */
+    border-radius: 5px; /* Adiciona bordas arredondadas ao campo de entrada */
+    font-size: 16px; /* Define o tamanho da fonte do campo de entrada */
+}
+
+button {
+    margin-top: 10px; /* Adiciona espaçamento superior ao botão */
+    padding: 10px 20px; /* Adiciona espaçamento interno ao botão */
+    background-color: #333333; /* Define a cor de fundo do botão */
+    color: #FFFFFF; /* Define a cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
+    font-size: 16px; /* Define o tamanho da fonte do botão */
+    cursor: pointer; /* Mostra o cursor como um ponteiro ao passar por cima do botão */
+}
+
+/* Estilos para a página de respostas */
+.result-container {
+    max-width: 600px; /* Define a largura máxima do contêiner */
+    margin: 20px auto; /* Centraliza o contêiner na página */
+    padding: 20px; /* Adiciona espaçamento interno ao contêiner */
+    background-color: #FFFFFF; /* Define a cor de fundo do contêiner */
+    border-radius: 10px; /* Adiciona bordas arredondadas ao contêiner */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao contêiner */
+}
+
+h2 {
+    color: #333333; /* Define a cor do texto do título */
+    text-align: center; /* Centraliza o texto do título */
+}
+
+p {
+    color: #666666;
+    text-align: center;
+    font-size: 18px;
+}
